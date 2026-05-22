@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>OnusAnt — IT Services</title>
+  <title>Piyush Freelancing Services — IT Services</title>
   <link href="https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap" rel="stylesheet"/>
   <style>
     :root {
@@ -45,13 +45,7 @@
     }
     .nav-logo span:nth-child(1) { color: var(--yellow); }
     .nav-logo span:nth-child(2) { color: var(--orange); }
-    .nav-logo span:nth-child(3) { color: var(--red); }
-    .nav-logo span:nth-child(4) { color: var(--red); }
-    .nav-logo span:nth-child(5) { color: var(--green); }
-    .nav-logo span:nth-child(6) { color: var(--green); }
-    .nav-logo span:nth-child(7) { color: var(--red); }
-    .nav-logo span:nth-child(8) { color: var(--orange); }
-    .nav-logo span:nth-child(9) { color: var(--yellow); }
+    .nav-logo span:nth-child(3) { color: var(--green); }
 
     .nav-links { display: flex; gap: 36px; list-style: none; }
     .nav-links a {
@@ -323,6 +317,20 @@
       font-weight: 800; letter-spacing: -1px; line-height: 1.15; margin-bottom: 14px;
     }
     .contact-left p { color: var(--muted); font-size: 0.95rem; line-height: 1.7; }
+    .contact-info { margin-top: 28px; display: flex; flex-direction: column; gap: 14px; }
+    .contact-info-item {
+      display: flex; align-items: flex-start; gap: 12px;
+      color: var(--muted); font-size: 0.9rem; line-height: 1.6;
+    }
+    .contact-info-item .ci-icon {
+      width: 36px; height: 36px; border-radius: 10px; flex-shrink: 0;
+      display: flex; align-items: center; justify-content: center; font-size: 1rem;
+    }
+    .ci-phone { background: rgba(59,181,75,0.15); }
+    .ci-email { background: rgba(249,194,46,0.15); }
+    .ci-addr  { background: rgba(244,123,58,0.15); }
+    .contact-info-item a { color: var(--white); text-decoration: none; transition: color 0.2s; }
+    .contact-info-item a:hover { color: var(--green); }
     .contact-form { display: flex; flex-direction: column; gap: 14px; min-width: 300px; flex: 1; }
     .contact-form input,
     .contact-form textarea {
@@ -359,13 +367,7 @@
     }
     .footer-logo span:nth-child(1) { color: var(--yellow); }
     .footer-logo span:nth-child(2) { color: var(--orange); }
-    .footer-logo span:nth-child(3) { color: var(--red); }
-    .footer-logo span:nth-child(4) { color: var(--red); }
-    .footer-logo span:nth-child(5) { color: var(--green); }
-    .footer-logo span:nth-child(6) { color: var(--green); }
-    .footer-logo span:nth-child(7) { color: var(--red); }
-    .footer-logo span:nth-child(8) { color: var(--orange); }
-    .footer-logo span:nth-child(9) { color: var(--yellow); }
+    .footer-logo span:nth-child(3) { color: var(--green); }
     footer p { color: var(--muted); font-size: 0.82rem; }
     .footer-links { display: flex; gap: 24px; list-style: none; }
     .footer-links a { color: var(--muted); font-size: 0.82rem; text-decoration: none; transition: color 0.2s; }
@@ -384,7 +386,7 @@
 <!-- NAV -->
 <nav>
   <div class="nav-logo">
-    <span>O</span><span>N</span><span>U</span><span>S</span><span>A</span><span>N</span><span>T</span>
+    <span>Piyush</span> <span>Freelancing</span> <span>Services</span>
   </div>
   <ul class="nav-links">
     <li><a href="#services">Services</a></li>
@@ -410,7 +412,7 @@
   </h1>
 
   <p class="hero-sub">
-    OnusAnt delivers end-to-end IT services — from software development and cloud infrastructure to cybersecurity and digital transformation. Built for businesses that can't afford to slow down.
+    Piyush Freelancing Services delivers end-to-end IT services — from software development and cloud infrastructure to cybersecurity and digital transformation. Built for businesses that can't afford to slow down.
   </p>
 
   <div class="hero-btns">
@@ -503,7 +505,7 @@
       </div>
     </div>
     <div class="reveal">
-      <div class="section-tag">Why OnusAnt</div>
+      <div class="section-tag">Why Piyush Freelancing Services</div>
       <h2 class="section-title">The <span style="color:var(--green)">right partner</span><br>for your tech journey</h2>
       <div class="why-points">
         <div class="why-point">
@@ -546,6 +548,20 @@
       <div class="section-tag">Get In Touch</div>
       <h2>Ready to build<br><span style="color:var(--yellow)">something great?</span></h2>
       <p style="margin-top:14px">Drop us a message and our team will get back to you within 24 hours. No pitch decks, just a real conversation about your project.</p>
+      <div class="contact-info">
+        <div class="contact-info-item">
+          <div class="ci-icon ci-phone">📞</div>
+          <div><strong style="color:var(--white)">Phone</strong><br><a href="tel:+917014986896">+91 70149 86896</a></div>
+        </div>
+        <div class="contact-info-item">
+          <div class="ci-icon ci-email">✉️</div>
+          <div><strong style="color:var(--white)">Email</strong><br><a href="mailto:piyushprajapati0102@gmail.com">piyushprajapati0102@gmail.com</a></div>
+        </div>
+        <div class="contact-info-item">
+          <div class="ci-icon ci-addr">📍</div>
+          <div><strong style="color:var(--white)">Address</strong><br>Near New Sabji Mandi, Infront of Paradise School,<br>Behror – 301701</div>
+        </div>
+      </div>
     </div>
     <div class="contact-form">
       <input type="text" placeholder="Your Name" />
@@ -560,9 +576,9 @@
 <!-- FOOTER -->
 <footer>
   <div class="footer-logo">
-    <span>O</span><span>N</span><span>U</span><span>S</span><span>A</span><span>N</span><span>T</span>
+    <span>Piyush</span> <span>Freelancing</span> <span>Services</span>
   </div>
-  <p>© 2026 OnusAnt Technologies. All rights reserved.</p>
+  <p>© 2026 Piyush Freelancing Services. All rights reserved.</p>
   <ul class="footer-links">
     <li><a href="#">Privacy</a></li>
     <li><a href="#">Terms</a></li>
